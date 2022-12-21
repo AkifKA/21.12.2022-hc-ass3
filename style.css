@@ -25,10 +25,10 @@ header h1 {
   font-family: "Ubuntu", sans-serif;
   font-size: 70px;
   font-weight: bold;
-  color: #2b86c5;
+  color: white;
   text-align: center;
   letter-spacing: 5px;
-  text-shadow: 4px 4px 0px #784ba0, -4px 0 0px #ff3cac, 7px 4px 0 #fff;
+  text-shadow: 4px 4px 0px #784ba0, -4px 0 0px #ff3cac, 7px 4px 0 #2b86c5;
 }
 
 img {
@@ -38,7 +38,18 @@ img {
 img:hover {
   width: 500px;
 }
+main.card-container {
+}
 
-main article.h4 {
-  color: coral;
+main article.cards {
+  margin-top: 50px;
+  padding: 0px 25px;
+  display: flex;
+}
+
+main article h2 {
+  color: burlywood;
+}
+main article div.content {
+  border: 1px solid red;
 }
